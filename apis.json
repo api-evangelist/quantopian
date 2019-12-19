@@ -1,0 +1,62 @@
+{
+    "name": "Quantopian",
+    "description": "Quantopian inspires talented people everywhere to write investment algorithms. Select authors may license their algorithms to us and get paid based on performance. https:\/\/www.quantopian.com.",
+    "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/1782-quantopian.jpg",
+    "tags": [
+        "algorithms",
+        "financial services",
+        "have api",
+        "statistics"
+    ],
+    "created": "2019-12-19",
+    "modified": "2019-12-19",
+    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/quantopian\/master\/apis.json",
+    "specificationVersion": "0.14",
+    "apis": [
+        {
+            "name": "Quantopian",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/1782-quantopian.jpg",
+            "humanURL": "http:\/\/www.quantopian.com",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-openapi",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/quantopian-openapi.json"
+                }
+            ]
+        }
+    ],
+    "include": [],
+    "x-common": [
+        {
+            "type": "Developers",
+            "url": "https:\/\/www.quantopian.com\/help#api-doco"
+        },
+        {
+            "type": "Blog",
+            "url": "http:\/\/blog.quantopian.com\/"
+        },
+        {
+            "type": "Crunchbase",
+            "url": "https:\/\/crunchbase.com\/organization\/quantopian"
+        },
+        {
+            "type": "Crunchbase",
+            "url": "http:\/\/www.crunchbase.com\/company\/quantopian"
+        },
+        {
+            "type": "Twitter",
+            "url": "https:\/\/twitter.com\/quantopian"
+        },
+        {
+            "type": "Website",
+            "url": "http:\/\/www.quantopian.com"
+        },
+        {
+            "type": "Website",
+            "url": "https:\/\/www.quantopian.com"
+        }
+    ]
+}
