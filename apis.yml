@@ -1,11 +1,30 @@
 aid: quantopian
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/quantopian.png
 name: Quantopian
-description: Quantopian is a company surfaced as a portfolio company of a16z, bessemer-venture-partners
-  and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the
-  enrichment pipeline.
+description: >-
+  Quantopian was a Boston-based crowd-sourced quantitative investment firm and
+  algorithmic-trading platform (backed by a16z and Bessemer Venture Partners)
+  where members wrote, backtested, and shared Python trading algorithms against
+  historical market data. The company ceased operations in November 2020 and its
+  intellectual property was acquired by Robinhood; its public developer platform
+  and hosted API are retired. Its widely-used open-source Python libraries -
+  Zipline (backtesting), Pyfolio, Alphalens, Empyrical, and trading-calendars -
+  remain published on PyPI and its GitHub organization stays live.
 url: https://raw.githubusercontent.com/api-evangelist/quantopian/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
+x-status: defunct
 x-backed-by:
 - a16z
 - bessemer-venture-partners
@@ -13,9 +32,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Algorithmic Trading
+- Quantitative Finance
+- FinTech
+- Backtesting
+- Open Source
+- Python
+- Investing
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +49,16 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: Packages
+  url: packages/quantopian-packages.yml
+- type: GitHubOrganization
+  url: https://github.com/quantopian
+- type: DomainSecurity
+  url: security/quantopian-domain-security.yml
 - type: Website
   url: https://www.quantopian.com/
+x-enrichment:
+  date: '2026-07-20'
+  status: enriched
+  artifacts_added: 2
+  pass: local-v1
