@@ -40,7 +40,7 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-09-15'
+modified: '2026-09-16'
 tags:
 - Company
 - Algorithmic Trading
@@ -50,6 +50,7 @@ tags:
 - Open-Source
 - Python
 - Investing
+- Defunct
 tags_raw:
 - Company
 - Algorithmic Trading
@@ -59,6 +60,7 @@ tags_raw:
 - Open Source
 - Python
 - Investing
+- Defunct
 apis: []
 maintainers:
 - FN: Kin Lane
