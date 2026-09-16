@@ -23,15 +23,12 @@ accessModel:
   method: derived
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/quantopian.png
 name: Quantopian
-description: >-
-  Quantopian was a Boston-based crowd-sourced quantitative investment firm and
-  algorithmic-trading platform (backed by a16z and Bessemer Venture Partners)
-  where members wrote, backtested, and shared Python trading algorithms against
-  historical market data. The company ceased operations in November 2020 and its
-  intellectual property was acquired by Robinhood; its public developer platform
-  and hosted API are retired. Its widely-used open-source Python libraries -
-  Zipline (backtesting), Pyfolio, Alphalens, Empyrical, and trading-calendars -
-  remain published on PyPI and its GitHub organization stays live.
+description: Quantopian was a Boston-based crowd-sourced quantitative investment firm and algorithmic-trading
+  platform (backed by a16z and Bessemer Venture Partners) where members wrote, backtested, and shared
+  Python trading algorithms against historical market data. The company ceased operations in November
+  2020 and its intellectual property was acquired by Robinhood; its public developer platform and hosted
+  API are retired. Its widely-used open-source Python libraries - Zipline (backtesting), Pyfolio, Alphalens,
+  Empyrical, and trading-calendars - remain published on PyPI and its GitHub organization stays live.
 url: https://raw.githubusercontent.com/api-evangelist/quantopian/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -43,7 +40,7 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-07-20'
+modified: '2026-09-15'
 tags:
 - Company
 - Algorithmic Trading
@@ -53,6 +50,7 @@ tags:
 - Open-Source
 - Python
 - Investing
+- Defunct
 tags_raw:
 - Company
 - Algorithmic Trading
@@ -73,7 +71,8 @@ common:
   url: https://apis.io/providers/robinhood/
   name: Robinhood
   x-relationship: acquired
-  x-evidence: "The company ceased operations in November 2020 and its intellectual property was acquired by Robinhood; its public developer platform and hosted API are retired."
+  x-evidence: The company ceased operations in November 2020 and its intellectual property was acquired
+    by Robinhood; its public developer platform and hosted API are retired.
 - type: Packages
   url: packages/quantopian-packages.yml
 - type: GitHubOrganization
